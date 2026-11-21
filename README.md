@@ -1,4 +1,4 @@
-# 拖入即阅
+# Temporary Markdown Preview（拖入即阅）
 
 把本地 Markdown 文件拖进 Obsidian，在临时标签页里阅读。
 
@@ -17,4 +17,8 @@
 
 1. 下载本仓库的 `main.js`、`manifest.json` 和 `styles.css`。
 2. 在要使用插件的仓库里创建 `.obsidian/plugins/temporary-markdown-preview/` 文件夹，将这三个文件放进去。
-3. 打开 Obsidian 的 **设置 → 第三方插件**，刷新已安装插件列表并启用 **拖入即阅**。
+3. 打开 Obsidian 的 **设置 → 第三方插件**，刷新已安装插件列表并启用 **Temporary Markdown Preview**。
+
+## 许可证
+
+本项目采用 [MIT 许可证](LICENSE)。
