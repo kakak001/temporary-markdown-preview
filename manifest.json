@@ -1,0 +1,9 @@
+{
+  "id": "temporary-markdown-preview",
+  "name": "拖入即阅",
+  "version": "1.1.0",
+  "minAppVersion": "1.7.2",
+  "description": "将 Markdown 文件拖入 Obsidian 临时预览，可主动保存到仓库。",
+  "author": "Local",
+  "isDesktopOnly": true
+}
