@@ -1,5 +1,25 @@
 # Temporary Markdown Preview（拖入即阅）
 
+Preview Markdown files from outside your vault by dragging them into the Obsidian desktop window. The preview opens in a read-only tab. You can save a copy to a vault folder whenever you want to keep it.
+
+## Installation
+
+Install **Temporary Markdown Preview** from Obsidian’s Community plugins directory once it is listed. To install manually on Obsidian Desktop 1.7.2 or later:
+
+1. Download the installation ZIP from [GitHub Releases](https://github.com/kakak001/temporary-markdown-preview/releases/latest).
+2. Extract the `temporary-markdown-preview` folder into your vault’s `.obsidian/plugins/` directory.
+3. In **Settings → Community plugins**, refresh the installed plugins list and enable **Temporary Markdown Preview**.
+
+## Usage
+
+- Drag a local `.md` file into the main Obsidian window to preview it.
+- Close the preview tab with **×** to discard it.
+- Click **保存到仓库** (Save to vault) and select a folder to save an editable copy. If the filename is already in use, the copy gets a numbered suffix.
+
+The plugin reads only the local files you drop and saves a copy only when you select a destination. Obsidian may load external resources referenced by the Markdown file, such as remote images.
+
+## 中文说明
+
 把本地 Markdown 文件拖进 Obsidian，在临时标签页里阅读。
 
 - **临时阅读**：从资源管理器把 `.md` 文件拖到 Obsidian 主窗口。点标签页的 × 关闭，仓库里不会新增笔记。
